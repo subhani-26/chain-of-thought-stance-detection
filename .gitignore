@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# Model weights (large binary files — store on HuggingFace Hub or Google Drive)
+*.pth
+*.pt
+*.bin
+*.ckpt
+
+# Data files (add your own CSVs to data/ but don't commit large datasets)
+data/*.csv
+
+# Outputs / generated plots
+outputs/*.png
+outputs/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
